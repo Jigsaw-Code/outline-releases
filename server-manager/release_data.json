@@ -1,0 +1,32 @@
+{
+  "latestVersions": {
+    "outline-manager-darwin-x64": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-linux-armv7l": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-linux-ia32": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-linux-x64": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-mas-x64": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-win32-ia32": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    },
+    "outline-manager-win32-x64": {
+      "location": "https://jigsaw.google.com",
+      "version": "0.0.1"
+    }
+  }
+}
