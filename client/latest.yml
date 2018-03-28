@@ -1,0 +1,9 @@
+version: 1.0.1
+files:
+  - url: Outline-Client.exe
+    sha512: CaDkeY388BQdxm43tB/Zqe0jMra5S+C6mjOi8CYrWcOymqlIj+4lEKTt6URgO8HeoNffLCBU0mfDebrdoHoUBQ==
+    size: 36689088
+path: Outline-Client.exe
+sha512: CaDkeY388BQdxm43tB/Zqe0jMra5S+C6mjOi8CYrWcOymqlIj+4lEKTt6URgO8HeoNffLCBU0mfDebrdoHoUBQ==
+sha2: ce16986cb336dbcb52914aec2e6d574761b64e05ae22bc5faecaf82f9a9ae5d4
+releaseDate: '2018-03-28T15:40:24.025Z'
