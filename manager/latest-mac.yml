@@ -1,0 +1,10 @@
+version: 1.0.7
+files:
+  - url: Outline-Manager.zip
+    sha512: KBgClWm0Q+hRrslg/lrtFN57Yk4ehaFoq4PqPKkcUpUbeI7QAIP38Rf11jSpy9ziZih+um9FWdUvJmDxWXYxCg==
+  - url: Outline-Manager.dmg
+    sha512: 24ec36GliQQIRrVZvcG3Q0r5JXOTMiy9hTJCJjQTXWy7/7vzwEjy1/UyDM4ZmAZau6GvXWZon4j41v11inasqQ==
+    size: 57925427
+path: Outline-Manager.zip
+sha512: KBgClWm0Q+hRrslg/lrtFN57Yk4ehaFoq4PqPKkcUpUbeI7QAIP38Rf11jSpy9ziZih+um9FWdUvJmDxWXYxCg==
+releaseDate: '2018-05-09T15:29:45.240Z'
