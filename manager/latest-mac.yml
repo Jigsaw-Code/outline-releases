@@ -1,10 +1,11 @@
-version: 1.0.7
+version: 1.1.1
 files:
   - url: Outline-Manager.zip
-    sha512: KBgClWm0Q+hRrslg/lrtFN57Yk4ehaFoq4PqPKkcUpUbeI7QAIP38Rf11jSpy9ziZih+um9FWdUvJmDxWXYxCg==
+    sha512: zqK3RQ8db9neRPXDx2CjFZ9P1D+DgId1cPWYyqqsoBqlJ7ExRrJmi10cgAJeDFz1OHCB16hRgqR98GY3DKgTFw==
   - url: Outline-Manager.dmg
-    sha512: 24ec36GliQQIRrVZvcG3Q0r5JXOTMiy9hTJCJjQTXWy7/7vzwEjy1/UyDM4ZmAZau6GvXWZon4j41v11inasqQ==
-    size: 57925427
+    sha512: K4xnQQXC9T5OPLrAgFH2uoodKj6zw6/BdyZVvYscNn13M1mDZxInw4nZLWtfK0EYhTzMm2pIlHrpZI4dNNTjRA==
+    size: 57833933
 path: Outline-Manager.zip
-sha512: KBgClWm0Q+hRrslg/lrtFN57Yk4ehaFoq4PqPKkcUpUbeI7QAIP38Rf11jSpy9ziZih+um9FWdUvJmDxWXYxCg==
-releaseDate: '2018-05-09T15:29:45.240Z'
+sha512: zqK3RQ8db9neRPXDx2CjFZ9P1D+DgId1cPWYyqqsoBqlJ7ExRrJmi10cgAJeDFz1OHCB16hRgqR98GY3DKgTFw==
+releaseDate: '2018-06-08T19:09:50.767Z'
+stagingPercentage: 10
