@@ -1,5 +1,6 @@
-The Outline Manager uses the [auto update feature](https://www.electron.build/auto-update) from electron-builder.
+Many of the files in here, e.g. `*.yml`, are for automatic updates, powered by https://www.electron.build/auto-update/.
 
-The update configuration is in the `.yml` files. Their location are specified in the `package_*_action.sh` scripts at https://github.com/Jigsaw-Code/outline-server/tree/master/src/server_manager/electron_app.
-
-The `.json` file is for the old built-in update mechanism and is deprecated.
+Note:
+- `Outline-Manager.zip` is for auto-updates on macOS
+- `*.blockmap` is for differential (smaller!) downloads
+- the paths in `*.yml` are specified by the `package_*_action.sh` scripts in `src/server_manager/electron_app`
