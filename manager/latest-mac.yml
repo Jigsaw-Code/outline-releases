@@ -1,10 +1,10 @@
-version: 1.1.5
+version: 1.1.6
 files:
   - url: Outline-Manager.zip
-    sha512: reGEekVVRuPUvccXh0/CczORAe9qs5MQqTvfgftYdMGUxmrnuAYPk/aAOWxYrUYuzBJWSoUNzvFfp2cP3Sy12Q==
+    sha512: cb2kUPtjLH5ecBcRU83VtKZfE1sPog1MGcdH/1oinznJ2mixgCyMpPDLciIxRG5VIxkqkCWYre+K64qCTaX+wQ==
   - url: Outline-Manager.dmg
-    sha512: uVXpuQprn2vBvd+E6ClAVAfig6Sj2jCwoJ/VI2UyBrNfInAbmhrOKYaPK/nK8QiBeV34wF5p8hKJgvuhU7hovQ==
-    size: 61768813
+    sha512: g88n62mAaRaW68h89CUG4Vutm792bCt2R6UbxOu53Lw4OU3HimUk84b+bbz1xLQjWMPjtdRExZ2CwfafX2hueA==
+    size: 60153146
 path: Outline-Manager.zip
-sha512: reGEekVVRuPUvccXh0/CczORAe9qs5MQqTvfgftYdMGUxmrnuAYPk/aAOWxYrUYuzBJWSoUNzvFfp2cP3Sy12Q==
-releaseDate: '2018-08-08T19:20:33.455Z'
+sha512: cb2kUPtjLH5ecBcRU83VtKZfE1sPog1MGcdH/1oinznJ2mixgCyMpPDLciIxRG5VIxkqkCWYre+K64qCTaX+wQ==
+releaseDate: '2018-08-23T15:53:48.925Z'
