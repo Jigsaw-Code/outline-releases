@@ -14,6 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Downloads the files associated with the specified GitHub release and
+# prepares a commit on a new branch from which a pull request can easily
+# be made.
+
 IFS="
 "
 
@@ -76,11 +80,13 @@ git pull -q
 pushd manager >/dev/null
 for file in ${FILES[@]}; do
   echo $file
-  curl -sLO $RELEASE_BASE/$file
+  curl -sfLO $RELEASE_BASE/$file || (
+    echo "Could not download this file, are you sure this release exists?"
+    exit 1
+  )
 done
 
 git checkout -b manager-$TAG
 git commit -a -m "release server manager $TAG"
 git branch
-
-echo "All done!"
+git push origin manager-$TAG
