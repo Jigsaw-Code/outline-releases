@@ -18,9 +18,6 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-IFS="
-"
-
 declare -a FILES=(
   # macOS.
   Outline-Manager.dmg
