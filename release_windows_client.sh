@@ -18,11 +18,9 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-# The .blockmap is temporarily removed owing to issues in 1.2.17:
-# https://github.com/Jigsaw-Code/outline-server/issues/282
-# Outline-Client.exe.blockmap
 declare -a FILES=(
   Outline-Client.exe
+  Outline-Client.exe.blockmap
   latest.yml
 )
 
