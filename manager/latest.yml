@@ -1,8 +1,9 @@
-version: 1.1.9
+version: 1.2.0
 files:
   - url: Outline-Manager.exe
-    sha512: n0VMsLP0mlIcyrCmW2WscpEIH2wzaYCOQgFt4Yt1A+SzIbE1ry9qLvcZr2KatzxDRlfUg2lk1FqhYswyEpZMrw==
-    size: 39500808
+    sha512: jgEy7/qk+M2xogXPm55RG3glTLrCMz9F8q5mQC6DiWw+p1eztfXqG7H5puS84ITSNbvV4COyuPG61OUmXFW0ug==
+    size: 39832720
 path: Outline-Manager.exe
-sha512: n0VMsLP0mlIcyrCmW2WscpEIH2wzaYCOQgFt4Yt1A+SzIbE1ry9qLvcZr2KatzxDRlfUg2lk1FqhYswyEpZMrw==
-releaseDate: '2018-11-20T18:12:44.629Z'
+sha512: jgEy7/qk+M2xogXPm55RG3glTLrCMz9F8q5mQC6DiWw+p1eztfXqG7H5puS84ITSNbvV4COyuPG61OUmXFW0ug==
+releaseDate: '2018-11-27T21:34:47.520Z'
+stagingPercentage: 20
