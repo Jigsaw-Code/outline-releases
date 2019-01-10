@@ -18,10 +18,6 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-# .blockmap files are temporarily removed owing to issues in 1.2.17:
-# https://github.com/Jigsaw-Code/outline-server/issues/282
-# Outline-Manager.dmg.blockmap
-# Outline-Manager.exe.blockmap
 declare -a FILES=(
   # macOS.
   Outline-Manager.dmg

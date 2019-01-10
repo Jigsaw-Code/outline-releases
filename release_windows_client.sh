@@ -20,7 +20,6 @@
 
 declare -a FILES=(
   Outline-Client.exe
-  Outline-Client.exe.blockmap
   latest.yml
 )
 
