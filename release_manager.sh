@@ -18,16 +18,22 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-declare -a FILES=(
+declare -a INSTALLER_FILES=(
   # macOS.
   Outline-Manager.dmg
+  # Windows.
+  Outline-Manager.exe
+  # Linux.
+  Outline-Manager.AppImage
+)
+
+declare -a UPDATE_FILES=(
+  # macOS.
   latest-mac.yml
   Outline-Manager.zip
   # Windows.
-  Outline-Manager.exe
   latest.yml
   # Linux.
-  Outline-Manager.AppImage
   latest-linux.yml
 )
 
@@ -73,12 +79,15 @@ fi
 git pull -q
 
 pushd manager >/dev/null
-for file in ${FILES[@]}; do
+for file in ${INSTALLER_FILES[@]} ${UPDATE_FILES[@]}; do
   echo $file
   curl -sfLO $RELEASE_BASE/$file || (
     echo "Could not download this file, are you sure this release exists?"
     exit 1
   )
+done
+for file in ${INSTALLER_FILES[@]}; do
+  cp $file stable/
 done
 
 git checkout -b manager-$TAG
