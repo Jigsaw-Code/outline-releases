@@ -1,8 +1,8 @@
-version: 1.2.27
+version: 1.2.28
 files:
   - url: Outline-Client.exe
-    sha512: 26FegwUiGBL52o4yDWrzw335WwOfPGLQ4+VdkpD3p5YhSqd33GmU2fHxycqyfZ5gixg9oqhQXfuwDnTwKAMbSQ==
-    size: 38892392
+    sha512: td49GJit2nwI+f/+7OCvDKlSRoUnVmrV6o1ouWMVFcq8sEtheDRRdqvvhyjWKmJPIjK7oz4sgRgPjwZj2nq2fw==
+    size: 38892416
 path: Outline-Client.exe
-sha512: 26FegwUiGBL52o4yDWrzw335WwOfPGLQ4+VdkpD3p5YhSqd33GmU2fHxycqyfZ5gixg9oqhQXfuwDnTwKAMbSQ==
-releaseDate: '2019-02-06T17:41:47.939Z'
+sha512: td49GJit2nwI+f/+7OCvDKlSRoUnVmrV6o1ouWMVFcq8sEtheDRRdqvvhyjWKmJPIjK7oz4sgRgPjwZj2nq2fw==
+releaseDate: '2019-02-28T23:45:45.014Z'
