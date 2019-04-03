@@ -1,9 +1,10 @@
-version: 1.0.6
+version: 1.1.0
 files:
   - url: Outline-Client.AppImage
-    sha512: NMTINzvbR/pTLPQabLX23e4zRnlmCxNbukjmpzimRgk8FZ2PnbPzlCpbEVvfCJRx3+m0oMNA3pR4aoSqE10x/Q==
-    size: 63668191
-    blockMapSize: 67875
+    sha512: ZPXoEHgR6TCPL8ZlHElGRz292p7/5p9Eeq2WXYuZn+GDeysUxHt7F9Kch43s0jyAoPLuQoyX77hb74sTn0IgoQ==
+    size: 64803851
+    blockMapSize: 68943
 path: Outline-Client.AppImage
-sha512: NMTINzvbR/pTLPQabLX23e4zRnlmCxNbukjmpzimRgk8FZ2PnbPzlCpbEVvfCJRx3+m0oMNA3pR4aoSqE10x/Q==
-releaseDate: '2019-03-28T20:37:45.421Z'
+sha512: ZPXoEHgR6TCPL8ZlHElGRz292p7/5p9Eeq2WXYuZn+GDeysUxHt7F9Kch43s0jyAoPLuQoyX77hb74sTn0IgoQ==
+releaseDate: '2019-04-03T21:35:11.582Z'
+stagingPercentage: 20
