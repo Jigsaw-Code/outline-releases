@@ -18,15 +18,6 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-if [[ ! -f ~/.aws/credentials ]]; then
-  echo "No AWS credentials file found.  Follow the instructions in the README to create one"
-  exit 1
-fi
-if [[ ! grep --quiet '\[outline-releases\]' ~/.aws/credentials ]]; then
-  echo "No outline-releases profile found in AWS credentuals"
-  exit 1
-fi
-
 declare -a FILES=(
   Outline-Client.AppImage
   latest-linux.yml
@@ -93,4 +84,3 @@ git checkout -b linux-client-$VERSION
 git commit -a -m "release linux client $VERSION"
 git branch
 git push origin linux-client-$VERSION
-aws s3 sync client s3://outline-releases/client --profile=outline-releases
