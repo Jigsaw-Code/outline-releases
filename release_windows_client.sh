@@ -18,6 +18,9 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
+if [[ ! "$(aws --version)" ]]; then
+  echo "AWS CLI isn't installed.  See https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html."
+fi
 if [[ ! -f ~/.aws/credentials ]]; then
   echo "No AWS credentials file found.  Follow the instructions in the README to create one"
   exit 1
