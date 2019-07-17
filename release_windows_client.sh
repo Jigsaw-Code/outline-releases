@@ -25,8 +25,8 @@ if [[ ! -f ~/.aws/credentials ]]; then
   echo "No AWS credentials file found.  Follow the instructions in the README to create one"
   exit 1
 fi
-if [[ ! grep --quiet '\[outline-releases\]' ~/.aws/credentials ]]; then
-  echo "No outline-releases profile found in AWS credentuals"
+if ! grep --quiet '\[outline-releases\]' ~/.aws/credentials ; then
+  echo "No outline-releases profile found in AWS credentials"
   exit 1
 fi
 
