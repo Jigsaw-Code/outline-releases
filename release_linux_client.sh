@@ -98,4 +98,6 @@ git checkout -b linux-client-$VERSION
 git commit -a -m "release linux client $VERSION"
 git branch
 git push origin linux-client-$VERSION
-aws s3 sync client s3://outline-releases/client --profile=outline-releases
+aws s3 sync . s3://outline-releases/client --profile=outline-releases
+
+popd >/dev/null
