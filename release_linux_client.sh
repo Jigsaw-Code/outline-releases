@@ -18,6 +18,8 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
+set -eux
+
 if [[ ! "$(aws --version)" ]]; then
   echo "AWS CLI isn't installed.  See https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html."
 fi
