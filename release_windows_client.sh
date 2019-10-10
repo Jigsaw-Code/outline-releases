@@ -96,4 +96,8 @@ git checkout -b windows-client-$VERSION
 git commit -a -m "release windows client $VERSION"
 git branch
 git push origin windows-client-$VERSION
-aws s3 sync client s3://outline-releases/client --profile=outline-releases
+
+# S3's Metrics filters don't accept special characters besides the path delimiter, so 
+# we have to publish to per-platform directories.
+# TODO(cohenjon) Remove this after the first platform-specific directory release
+aws s3 sync . s3://outline-releases/client --profile=outline-releases
