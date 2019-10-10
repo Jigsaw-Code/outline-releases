@@ -97,6 +97,12 @@ git commit -a -m "release linux client $VERSION"
 git branch
 git push origin linux-client-$VERSION
 
-aws s3 sync . s3://outline-releases/client --profile=outline-releases
+# S3's Metrics filters don't accept special characters besides the path delimiter, so 
+# we have to publish to per-platform directories.
+# TODO(cohenjon) Remove the first line in the loop once requests to those files go to 0.
+for file in ${FILES[@]}; do
+  aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
+  aws s3 cp "${file}" s3://outline-releases/client/linux/"${file}" --profile=outline-releases
+done
 
 popd >/dev/null
