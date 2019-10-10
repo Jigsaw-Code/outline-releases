@@ -101,6 +101,5 @@ git push origin linux-client-$VERSION
 # we have to publish to per-platform directories.
 # TODO(cohenjon) Remove this after the first platform-specific directory release
 aws s3 sync . s3://outline-releases/client --profile=outline-releases
-aws s3 sync . s3://outline-releases/client/linux --profile=outline-releases
 
 popd >/dev/null
