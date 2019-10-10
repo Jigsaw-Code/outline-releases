@@ -101,8 +101,8 @@ git push origin linux-client-$VERSION
 # we have to publish to per-platform directories.
 # TODO(cohenjon) Remove this after the first platform-specific directory release
 for file in ${FILES[@]}; do
-  aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile-outline-releases
-  aws s3 cp "${file}" s3://outline-releases/client/linux/"${file}" --profile-outline-releases
+  aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
+  aws s3 cp "${file}" s3://outline-releases/client/linux/"${file}" --profile=outline-releases
 done
 
 popd >/dev/null
