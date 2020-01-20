@@ -1,0 +1,12 @@
+version: 1.3.0
+files:
+  - url: Outline-Manager.zip
+    sha512: 2AkIbzpYf59NRlo8Nwzu+6hk729aJg+VoF6hvnG50QwDQUsDw05BF7p9Vnzh/HLRZ+Z+hz9zMwEx0TV5hCtnJw==
+    size: 74256989
+    blockMapSize: 78609
+  - url: Outline-Manager.dmg
+    sha512: a9C9RR5FKphbzIW/3CarF05ZV2jkj9xV8CXEAjVDBxIXCxQA16OMbMp+v8ZK+qpYwUUJOsY60EK+ZuF7246OnA==
+    size: 76832306
+path: Outline-Manager.zip
+sha512: 2AkIbzpYf59NRlo8Nwzu+6hk729aJg+VoF6hvnG50QwDQUsDw05BF7p9Vnzh/HLRZ+Z+hz9zMwEx0TV5hCtnJw==
+releaseDate: '2019-11-07T17:34:56.196Z'
