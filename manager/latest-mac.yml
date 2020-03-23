@@ -1,12 +1,12 @@
-version: 1.3.0
+version: 1.4.0
 files:
   - url: Outline-Manager.zip
-    sha512: 2AkIbzpYf59NRlo8Nwzu+6hk729aJg+VoF6hvnG50QwDQUsDw05BF7p9Vnzh/HLRZ+Z+hz9zMwEx0TV5hCtnJw==
-    size: 74256989
-    blockMapSize: 78609
+    sha512: R2KaUvtJTP2zevkAW/dcIx7RtPRcD30JbOUB84gmTZhMTKOOuOMTtqZirzjh2jEkiKraNoUyKtLJmgTKpnaK9A==
+    size: 75033982
+    blockMapSize: 80032
   - url: Outline-Manager.dmg
-    sha512: a9C9RR5FKphbzIW/3CarF05ZV2jkj9xV8CXEAjVDBxIXCxQA16OMbMp+v8ZK+qpYwUUJOsY60EK+ZuF7246OnA==
-    size: 76832306
+    sha512: Da2isMMB5T5Cx7a86JG2RDSa9vAimCBPovrhzdNQtzf6pqgDlC7GnR7oMBJMMsxWwvusBO7IBxx1NSAOQwkGRQ==
+    size: 77623435
 path: Outline-Manager.zip
-sha512: 2AkIbzpYf59NRlo8Nwzu+6hk729aJg+VoF6hvnG50QwDQUsDw05BF7p9Vnzh/HLRZ+Z+hz9zMwEx0TV5hCtnJw==
-releaseDate: '2019-11-07T17:34:56.196Z'
+sha512: R2KaUvtJTP2zevkAW/dcIx7RtPRcD30JbOUB84gmTZhMTKOOuOMTtqZirzjh2jEkiKraNoUyKtLJmgTKpnaK9A==
+releaseDate: '2020-03-20T15:18:21.097Z'
