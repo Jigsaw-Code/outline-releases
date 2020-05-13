@@ -1,9 +1,9 @@
-version: 1.5.1
+version: 1.5.2
 files:
   - url: Outline-Manager.AppImage
-    sha512: aF5vwdPcHIXI6CIhXBR6pa4cTY5nXMLqrTBEC8aT+V93IpWiKoKDWBj080Ka8B16SwjKll5Cst9M3K63OJqI+w==
-    size: 83674208
-    blockMapSize: 87156
+    sha512: Wgz14EpBQLXWhg/T2QforM80R5aPc1UxSlBT7wWDcHXmx5oCrVtnZk+b0djgehoa8ManroZxWTxHt0UxxTe+OQ==
+    size: 92588610
+    blockMapSize: 96854
 path: Outline-Manager.AppImage
-sha512: aF5vwdPcHIXI6CIhXBR6pa4cTY5nXMLqrTBEC8aT+V93IpWiKoKDWBj080Ka8B16SwjKll5Cst9M3K63OJqI+w==
-releaseDate: '2020-04-30T17:42:44.192Z'
+sha512: Wgz14EpBQLXWhg/T2QforM80R5aPc1UxSlBT7wWDcHXmx5oCrVtnZk+b0djgehoa8ManroZxWTxHt0UxxTe+OQ==
+releaseDate: '2020-05-13T16:15:56.946Z'

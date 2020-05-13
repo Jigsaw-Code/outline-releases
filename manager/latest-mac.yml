@@ -1,12 +1,12 @@
-version: 1.5.1
+version: 1.5.2
 files:
   - url: Outline-Manager.zip
-    sha512: 4iQzqRSeXFhjk57U8wCQFBLkF2YPlpiFiinB3sPUpJtIh6Gcf2JhBzL59dm/Y1LM4Zc1I2AtVC8YVfm3q1+LyQ==
-    size: 75059285
-    blockMapSize: 79565
+    sha512: WbV5E28OzwFH3TlUbdx/5YM3E4VmP+71Z/VOLfXRJ6gSYq07eW55DjSnyEeOu6aUTLzsphmJfxDkEg0smn3/Sw==
+    size: 82944977
+    blockMapSize: 87999
   - url: Outline-Manager.dmg
-    sha512: tGDYsdH9K0E7bPnnppjrdbVojGJEqt/sCZK2Yes/0mmVbhFCHZYdO4YfgT09JNxwOqkU+xfq27fP1U6NnLAkqg==
-    size: 77651346
+    sha512: T1fKenNGmuQ7SIeweGK48Zn9c0EtK6dDyhtr5ZU5oFSmJbmev1bav2Ti/zd/ie+Ud5LkCrpTVifDHB1efuVU4w==
+    size: 86161096
 path: Outline-Manager.zip
-sha512: 4iQzqRSeXFhjk57U8wCQFBLkF2YPlpiFiinB3sPUpJtIh6Gcf2JhBzL59dm/Y1LM4Zc1I2AtVC8YVfm3q1+LyQ==
-releaseDate: '2020-04-30T17:50:20.147Z'
+sha512: WbV5E28OzwFH3TlUbdx/5YM3E4VmP+71Z/VOLfXRJ6gSYq07eW55DjSnyEeOu6aUTLzsphmJfxDkEg0smn3/Sw==
+releaseDate: '2020-05-13T16:23:43.910Z'
