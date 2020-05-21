@@ -1,8 +1,8 @@
-version: 1.5.2
+version: 1.5.3
 files:
   - url: Outline-Manager.exe
-    sha512: L6hrhLDsegNuXqjuVr45XktgopOm/QWLeFTnzCCia/Sic4Q2crjo4uA6q+YBhzAH2XA/EI/RAClSM6640RECzA==
-    size: 53864360
+    sha512: SaSBeO/KffCfa9WB2FauYgEVWPTRIon6oxXooHim8fEMJT0v/TjmAR12NcmlGRjheNxwC6Wh7+PtBfbew9UMbg==
+    size: 53860336
 path: Outline-Manager.exe
-sha512: L6hrhLDsegNuXqjuVr45XktgopOm/QWLeFTnzCCia/Sic4Q2crjo4uA6q+YBhzAH2XA/EI/RAClSM6640RECzA==
-releaseDate: '2020-05-13T16:34:38.354Z'
+sha512: SaSBeO/KffCfa9WB2FauYgEVWPTRIon6oxXooHim8fEMJT0v/TjmAR12NcmlGRjheNxwC6Wh7+PtBfbew9UMbg==
+releaseDate: '2020-05-21T19:22:37.161Z'
