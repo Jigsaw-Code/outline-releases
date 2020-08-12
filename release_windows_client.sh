@@ -31,8 +31,10 @@ if ! grep --quiet '\[outline-releases\]' ~/.aws/credentials ; then
 fi
 
 declare -a FILES=(
+  stable/Outline-Client.exe
   Outline-Client.exe
   latest.yml
+  beta.yml
 )
 
 function usage() {
@@ -85,12 +87,17 @@ for file in ${FILES[@]}; do
   )
 done
 
-# Update the stable download, i.e. that linked from getoutline.org.
-cp Outline-Client.exe stable/
 
 # Just the version number, e.g.:
-#   windows-v1.2.17 -> v1.2.17
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+#   windows-v1.2.17-beta -> v1.2.17-beta
+readonly VERSION=$(echo $TAG | cut -d'-' -f2-)
+echo "Releaseing version $VERSION"
+
+# Update the stable download, i.e. that linked from getoutline.org.
+if ! [[ $VERSION =~ ^.*-beta$ ]]; then
+  echo "Updating stable client"
+  cp Outline-Client.exe stable/
+fi
 
 git checkout -b windows-client-$VERSION
 git commit -a -m "release windows client $VERSION"

@@ -32,7 +32,9 @@ fi
 
 declare -a FILES=(
   Outline-Client.AppImage
+  stable/Outline-Client.AppImage
   latest-linux.yml
+  beta-linux.yml
 )
 
 function usage() {
@@ -85,12 +87,17 @@ for file in ${FILES[@]}; do
   )
 done
 
-# Update the stable download, i.e. that linked from getoutline.org.
-cp Outline-Client.AppImage stable/
 
 # Just the version number, e.g.:
-#   linux-v1.0.3 -> v1.0.3
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+#   linux-v1.0.3-beta -> v1.0.3-beta
+readonly VERSION=$(echo $TAG | cut -d'-' -f2-)
+echo "Releaseing version $VERSION"
+
+# Update the stable download, i.e. that linked from getoutline.org.
+if ! [[ $VERSION =~ ^.*-beta$ ]]; then
+  echo "Updating stable client"
+  cp Outline-Client.AppImage stable/
+fi
 
 git checkout -b linux-client-$VERSION
 git commit -a -m "release linux client $VERSION"
