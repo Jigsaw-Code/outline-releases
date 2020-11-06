@@ -33,6 +33,7 @@ fi
 declare -a FILES=(
   Outline-Client.AppImage
   latest-linux.yml
+  beta-linux.yml
 )
 
 function usage() {
@@ -85,12 +86,19 @@ for file in ${FILES[@]}; do
   )
 done
 
-# Update the stable download, i.e. that linked from getoutline.org.
-cp Outline-Client.AppImage stable/
 
 # Just the version number, e.g.:
-#   linux-v1.0.3 -> v1.0.3
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+#   linux-v1.0.3-beta -> v1.0.3-beta
+readonly VERSION=$(echo $TAG | cut -d'-' -f2-)
+echo "Releasing version $VERSION"
+
+# Update the stable download, i.e. that linked from getoutline.org.
+UPDATE_STABLE=
+if ! [[ $VERSION =~ ^.*-beta$ ]]; then
+  echo "Updating stable client"
+  cp Outline-Client.AppImage stable/
+  UPDATE_STABLE=true
+fi
 
 git checkout -b linux-client-$VERSION
 git commit -a -m "release linux client $VERSION"
@@ -104,5 +112,9 @@ for file in ${FILES[@]}; do
   aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
   aws s3 cp "${file}" s3://outline-releases/client/linux/"${file}" --profile=outline-releases
 done
+
+if [[ $UPDATE_STABLE ]]; then
+  aws s3 cp stable/Outline-Client.exe s3://outline-releases/client/stable/Outline-Client.AppImage --profile=outline-releases
+fi
 
 popd >/dev/null

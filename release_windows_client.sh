@@ -33,6 +33,7 @@ fi
 declare -a FILES=(
   Outline-Client.exe
   latest.yml
+  beta.yml
 )
 
 function usage() {
@@ -85,12 +86,19 @@ for file in ${FILES[@]}; do
   )
 done
 
-# Update the stable download, i.e. that linked from getoutline.org.
-cp Outline-Client.exe stable/
 
 # Just the version number, e.g.:
-#   windows-v1.2.17 -> v1.2.17
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+#   windows-v1.2.17-beta -> v1.2.17-beta
+readonly VERSION=$(echo $TAG | cut -d'-' -f2-)
+echo "Releasing version $VERSION"
+
+# Update the stable download, i.e. that linked from getoutline.org.
+UPDATE_STABLE=
+if ! [[ $VERSION =~ ^.*-beta$ ]]; then
+  echo "Updating stable client"
+  cp Outline-Client.exe stable/
+  UPDATE_STABLE=true
+fi
 
 git checkout -b windows-client-$VERSION
 git commit -a -m "release windows client $VERSION"
@@ -104,3 +112,9 @@ for file in ${FILES[@]}; do
   aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
   aws s3 cp "${file}" s3://outline-releases/client/windows/"${file}" --profile=outline-releases
 done
+
+if [[ $UPDATE_STABLE ]]; then
+  aws s3 cp stable/Outline-Client.exe s3://outline-releases/client/stable/Outline-Client.exe --profile=outline-releases
+fi
+
+popd > /dev/null
