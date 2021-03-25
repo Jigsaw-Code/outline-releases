@@ -22,7 +22,7 @@ declare -a INSTALLER_FILES=(
   # macOS.
   Outline-Manager.dmg
   # Windows.
-  # Outline-Manager.exe
+  Outline-Manager.exe
   # Linux.
   Outline-Manager.AppImage
 )
@@ -32,7 +32,7 @@ declare -a UPDATE_FILES=(
   latest-mac.yml
   Outline-Manager.zip
   # Windows.
-  # latest.yml
+  latest.yml
   # Linux.
   latest-linux.yml
 )
