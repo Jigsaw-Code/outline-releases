@@ -1,19 +1,19 @@
 version: 1.7.1
 files:
   - url: Outline-Manager.zip
-    sha512: lDYvG51/nO0w/u1SpfHEx5Rq+iVo6zCC10FJCrt5fiP2JQZwEYePObjdrAM+WF5aaoieGpKEo6rNzWUpNQL8oA==
-    size: 82521158
-    blockMapSize: 87803
+    sha512: JyJBDURl2LP/fNuyyqMG7/R6aZXBZHyixqBzVGlMrG8lmnxBJDHfHKHyD5OqVyedfpGHAgbQkocaByyDHeJDmg==
+    size: 82534386
+    blockMapSize: 87876
   - url: Outline-Manager.dmg
-    sha512: WF1GxFnK4GA2w4CqQo903iEjIzg5/XCYWRaZXe/sbGbQuZx+ZuWqOum+4ed3UrsunsP1nfgS6M1caWXB3dsa1A==
-    size: 85513890
+    sha512: Ki+p5U2hypo7GUkh84xGtoNWa+/F7bCE10LPNC9xiRpn+QvWOsNTZgr7ytlHV9H3G4RlNvLH1SGaTfGJ8TvD2A==
+    size: 85531210
   - url: Outline-Manager.dmg
-    sha512: WF1GxFnK4GA2w4CqQo903iEjIzg5/XCYWRaZXe/sbGbQuZx+ZuWqOum+4ed3UrsunsP1nfgS6M1caWXB3dsa1A==
-    size: 85513890
+    sha512: Ki+p5U2hypo7GUkh84xGtoNWa+/F7bCE10LPNC9xiRpn+QvWOsNTZgr7ytlHV9H3G4RlNvLH1SGaTfGJ8TvD2A==
+    size: 85531210
   - url: Outline-Manager.dmg
-    sha512: WF1GxFnK4GA2w4CqQo903iEjIzg5/XCYWRaZXe/sbGbQuZx+ZuWqOum+4ed3UrsunsP1nfgS6M1caWXB3dsa1A==
-    size: 85513890
+    sha512: Ki+p5U2hypo7GUkh84xGtoNWa+/F7bCE10LPNC9xiRpn+QvWOsNTZgr7ytlHV9H3G4RlNvLH1SGaTfGJ8TvD2A==
+    size: 85531210
 path: Outline-Manager.zip
-sha512: lDYvG51/nO0w/u1SpfHEx5Rq+iVo6zCC10FJCrt5fiP2JQZwEYePObjdrAM+WF5aaoieGpKEo6rNzWUpNQL8oA==
-releaseDate: '2021-03-24T19:17:34.921Z'
+sha512: JyJBDURl2LP/fNuyyqMG7/R6aZXBZHyixqBzVGlMrG8lmnxBJDHfHKHyD5OqVyedfpGHAgbQkocaByyDHeJDmg==
+releaseDate: '2021-03-25T18:57:40.535Z'
 stagingPercentage: 100
