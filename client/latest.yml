@@ -1,10 +1,10 @@
-version: 1.5.0
+version: 1.6.0
 files:
   - url: Outline-Client.exe
-    sha512: MVU2uVxFmovdncZ0ii0klzRfeTNZP2kGhzj8Xia+8jO67pk2NGzs9rkuMMmPPe303x+TiiTPoWARnY+ne+QLHg==
-    size: 62788728
+    sha512: suoMGPp/J7+wAcCrXQXNMy3voTCaMOyekixpWrqvMIWtIGO4iFSNFm4q5D+7k7/VN2pIPCX8ODs7A70YXn/VvA==
+    size: 62782296
     isAdminRightsRequired: true
 path: Outline-Client.exe
-sha512: MVU2uVxFmovdncZ0ii0klzRfeTNZP2kGhzj8Xia+8jO67pk2NGzs9rkuMMmPPe303x+TiiTPoWARnY+ne+QLHg==
-releaseDate: '2021-02-25T19:20:58.962Z'
+sha512: suoMGPp/J7+wAcCrXQXNMy3voTCaMOyekixpWrqvMIWtIGO4iFSNFm4q5D+7k7/VN2pIPCX8ODs7A70YXn/VvA==
+releaseDate: '2021-05-04T21:16:49.929Z'
 stagingPercentage: 100
