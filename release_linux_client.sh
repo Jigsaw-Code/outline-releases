@@ -18,18 +18,6 @@
 # prepares a commit on a new branch from which a pull request can easily
 # be made.
 
-if [[ ! "$(aws --version)" ]]; then
-  echo "AWS CLI isn't installed.  See https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html."
-fi
-if [[ ! -f ~/.aws/credentials ]]; then
-  echo "No AWS credentials file found.  Follow the instructions in the README to create one"
-  exit 1
-fi
-if ! grep --quiet '\[outline-releases\]' ~/.aws/credentials ; then
-  echo "No outline-releases profile found in AWS credentials"
-  exit 1
-fi
-
 declare -a FILES=(
   Outline-Client.AppImage
   latest-linux.yml
@@ -56,8 +44,8 @@ if (( $# != 1 )); then
   usage
 fi
 
-readonly TAG=$1
-readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/$TAG
+readonly TAG="${1}"
+readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/"${TAG}"
 
 # Make sure we're on a clean and up to date master.
 #
@@ -77,9 +65,9 @@ fi
 git pull -q
 
 pushd client >/dev/null
-for file in ${FILES[@]}; do
-  echo $file
-  curl -sfLO $RELEASE_BASE/$file || (
+for file in "${FILES[@]}"; do
+  echo "${file}"
+  curl -sfLO "${RELEASE_BASE}/${file}" || (
     echo "Could not download this file, are you sure this release exists?"
     exit 1
   )
@@ -90,19 +78,11 @@ cp Outline-Client.AppImage stable/
 
 # Just the version number, e.g.:
 #   linux-v1.0.3 -> v1.0.3
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+readonly VERSION=$(echo "${TAG}" | cut -d'-' -f2)
 
-git checkout -b linux-client-$VERSION
-git commit -a -m "release linux client $VERSION"
+git checkout -b linux-client-"${VERSION}"
+git commit -a -m "release linux client ${VERSION}"
 git branch
-git push origin linux-client-$VERSION
-
-# S3's Metrics filters don't accept special characters besides the path delimiter, so 
-# we have to publish to per-platform directories.
-# TODO(cohenjon) Remove the first line in the loop once requests to those files go to 0.
-for file in ${FILES[@]}; do
-  aws s3 cp "${file}" s3://outline-releases/client/"${file}" --profile=outline-releases
-  aws s3 cp "${file}" s3://outline-releases/client/linux/"${file}" --profile=outline-releases
-done
+git push origin linux-client-"${VERSION}"
 
 popd >/dev/null

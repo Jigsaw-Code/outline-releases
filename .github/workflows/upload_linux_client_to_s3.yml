@@ -1,0 +1,51 @@
+# Copyright 2021 The Outline Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Uploads releases to the S3 bucket once the PR adding them is merged to master.  Currently we
+# only host desktop clients on S3, so those are the only ones pushed.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - client/latest-linux.yml
+jobs:
+  linux_client:
+    name: Upload Linux Client
+
+    runs-on: ubuntu-16.04
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v1
+
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get install -y awscli
+          aws --version
+
+      - name: Upload Linux Client to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run:
+          declare -a FILES=(
+            Outline-Client.AppImage
+            latest-linux.yml
+          )
+          for file in "${FILES[@]}"; do
+            aws s3 cp "client/${file}" s3://outline-releases/client/"${file}"
+            aws s3 cp "client/${file}" s3://outline-releases/client/linux/"${file}"
+          done
