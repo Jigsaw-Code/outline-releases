@@ -45,7 +45,7 @@ jobs:
             Outline-Client.AppImage
             latest-linux.yml
           )
-          for file in ${FILES[@]}; do
+          for file in "${FILES[@]}"; do
             aws s3 cp "client/${file}" s3://outline-releases/client/"${file}"
             aws s3 cp "client/${file}" s3://outline-releases/client/linux/"${file}"
           done
