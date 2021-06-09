@@ -44,8 +44,8 @@ if (( $# != 1 )); then
   usage
 fi
 
-readonly TAG=$1
-readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/$TAG
+readonly TAG="${1}"
+readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/"${TAG}"
 
 # Make sure we're on a clean and up to date master.
 #
@@ -65,9 +65,9 @@ fi
 git pull -q
 
 pushd client >/dev/null
-for file in ${FILES[@]}; do
-  echo $file
-  curl -sfLO $RELEASE_BASE/$file || (
+for file in "${FILES[@]}"; do
+  echo "${file}"
+  curl -sfLO "${RELEASE_BASE}/${file}" || (
     echo "Could not download this file, are you sure this release exists?"
     exit 1
   )
@@ -78,11 +78,11 @@ cp Outline-Client.AppImage stable/
 
 # Just the version number, e.g.:
 #   linux-v1.0.3 -> v1.0.3
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+readonly VERSION=$(echo "${TAG}" | cut -d'-' -f2)
 
-git checkout -b linux-client-$VERSION
-git commit -a -m "release linux client $VERSION"
+git checkout -b linux-client-"${VERSION}"
+git commit -a -m "release linux client ${VERSION}"
 git branch
-git push origin linux-client-$VERSION
+git push origin linux-client-"${VERSION}"
 
 popd >/dev/null

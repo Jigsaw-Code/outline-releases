@@ -44,8 +44,8 @@ if (( $# != 1 )); then
   usage
 fi
 
-readonly TAG=$1
-readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/$TAG
+readonly TAG="${1}"
+readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/"${TAG}"
 
 # Make sure we're on a clean and up to date master.
 #
@@ -65,9 +65,9 @@ fi
 git pull -q
 
 pushd client >/dev/null
-for file in ${FILES[@]}; do
-  echo $file
-  curl -sfLO $RELEASE_BASE/$file || (
+for file in "${FILES[@]}"; do
+  echo "${file}"
+  curl -sfLO "${RELEASE_BASE}/${file}" || (
     echo "Could not download this file, are you sure this release exists?"
     exit 1
   )
@@ -78,9 +78,9 @@ cp Outline-Client.exe stable/
 
 # Just the version number, e.g.:
 #   windows-v1.2.17 -> v1.2.17
-readonly VERSION=$(echo $TAG | cut -d'-' -f2)
+readonly VERSION=$(echo "${TAG}" | cut -d'-' -f2)
 
-git checkout -b windows-client-$VERSION
-git commit -a -m "release windows client $VERSION"
+git checkout -b windows-client-"${VERSION}"
+git commit -a -m "release windows client ${VERSION}"
 git branch
-git push origin windows-client-$VERSION
+git push origin windows-client-"${VERSION}"
