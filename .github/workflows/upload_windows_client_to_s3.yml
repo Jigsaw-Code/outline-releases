@@ -42,7 +42,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run:
           declare -a FILES=(
-            Outline-Client.AppImage
+            Outline-Client.exe
             latest.yml
           )
           for file in "${FILES[@]}"; do
