@@ -1,10 +1,10 @@
-version: 1.8.1
+version: 1.9.0
 files:
   - url: Outline-Manager.AppImage
-    sha512: lskp9SkmBpk0VaJZjggB7wiCap4D/Vpxj1qjQhvWEsLXzA7Ne4xgzvi9E+eDu5Wz1Tg6utbx4H9s5vuW91aw5A==
-    size: 92317393
-    blockMapSize: 95973
+    sha512: irg1gS9nEx6GWiCeWiZYKqQWBdutW2Ix9uqFOqldwNX2FSBD5PKAT77jWcijZgWLG9XEhfPn84K16oB4c4W/7A==
+    size: 100853765
+    blockMapSize: 104473
 path: Outline-Manager.AppImage
-sha512: lskp9SkmBpk0VaJZjggB7wiCap4D/Vpxj1qjQhvWEsLXzA7Ne4xgzvi9E+eDu5Wz1Tg6utbx4H9s5vuW91aw5A==
-releaseDate: '2021-05-04T19:35:48.197Z'
+sha512: irg1gS9nEx6GWiCeWiZYKqQWBdutW2Ix9uqFOqldwNX2FSBD5PKAT77jWcijZgWLG9XEhfPn84K16oB4c4W/7A==
+releaseDate: '2021-09-28T16:38:06.638Z'
 stagingPercentage: 100
