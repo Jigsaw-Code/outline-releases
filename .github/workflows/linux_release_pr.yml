@@ -1,0 +1,28 @@
+name: Create Linux Release PR
+
+on:
+  repository_dispatch:
+    types: [linux_prerelease_created]
+
+jobs:
+  create_release_pr:
+    runs-on: ubuntu-20.04
+    env:
+      PRERELEASE_TAG: ${{ github.event.client_payload.PRERELEASE_TAG }}
+      PRERELEASE_VERSION: ${{ github.event.client_payload.PRERELEASE_VERSION }}
+      RELEASE_BRANCH: linux-client-v${{ github.event.client_payload.PRERELEASE_TAG }}
+    timeout-minutes: 15
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      
+      - name: Create Release Branch
+        run: ./release_linux_client.sh ${{ env.PRERELEASE_TAG }}
+
+      - name: Create Release Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: "Linux Client v${{ env.PRERELEASE_VERSION }}"
+          # TODO: add this in once final step is created
+          # body: |
+          #   Note: merging this will promote ${{ github.event.client_payload.PRERELEASE_URL }}
+          branch: "${{ env.RELEASE_BRANCH }}"
