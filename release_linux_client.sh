@@ -28,7 +28,7 @@ function usage() {
 Usage: $0 <tag>
 
 Examples:
-  $0 linux-v1.0.3
+  $0 1.0.3-rc3+linux
 EOM
 exit 1
 }
@@ -44,8 +44,10 @@ if (( $# != 1 )); then
   usage
 fi
 
-readonly TAG="${1}"
-readonly RELEASE_BASE=https://github.com/Jigsaw-Code/outline-client/releases/download/"${TAG}"
+readonly SEMVER_TAG="${1}"
+readonly SEMVER_VERSION="${SEMVER_TAG%%-*}"
+readonly RELEASES_REPOSITORY="${RELEASES_REPOSITORY:-Jigsaw-Code/outline-client}"
+readonly RELEASES_BASE=https://github.com/"${RELEASE_REPOSITORY}"/releases/download/"${SEMVER_TAG}"
 
 # Make sure we're on a clean and up to date master.
 #
@@ -67,7 +69,7 @@ git pull -q
 pushd client >/dev/null
 for file in "${FILES[@]}"; do
   echo "${file}"
-  curl -sfLO "${RELEASE_BASE}/${file}" || (
+  curl -sfLO "${RELEASES_BASE}/${file}" || (
     echo "Could not download this file, are you sure this release exists?"
     exit 1
   )
@@ -76,13 +78,8 @@ done
 # Update the stable download, i.e. that linked from getoutline.org.
 cp Outline-Client.AppImage stable/
 
-# Just the version number, e.g.:
-#   linux-v1.0.3 -> v1.0.3
-readonly VERSION=$(echo "${TAG}" | cut -d'-' -f2)
-
-git checkout -b linux-client-"${VERSION}"
-git commit -a -m "release linux client ${VERSION}"
+git commit -a -m "release linux client v${SEMVER_VERSION}"
 git branch
-git push origin linux-client-"${VERSION}"
+git push origin master
 
 popd >/dev/null
