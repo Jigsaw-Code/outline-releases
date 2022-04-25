@@ -21,6 +21,8 @@ on:
       - master
     paths:
       - client/latest.yml
+  workflow_dispatch:
+
 jobs:
   linux_client:
     name: Upload Windows Client
@@ -40,12 +42,12 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run:
+        run: |
           declare -a FILES=(
-            Outline-Client.exe
-            latest.yml
+            "Outline-Client.exe"
+            "latest.yml"
           )
           for file in "${FILES[@]}"; do
-            aws s3 cp "client/${file}" s3://outline-releases/client/"${file}"
-            aws s3 cp "client/${file}" s3://outline-releases/client/windows/"${file}"
+            aws s3 cp "client/${file}" "s3://outline-releases/client/${file}"
+            aws s3 cp "client/${file}" "s3://outline-releases/client/windows/${file}"
           done
