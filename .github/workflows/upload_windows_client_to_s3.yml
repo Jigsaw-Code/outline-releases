@@ -24,7 +24,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  linux_client:
+  windows_client:
     name: Upload Windows Client
 
     runs-on: ubuntu-latest
