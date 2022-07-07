@@ -1,16 +1,10 @@
 version: 1.9.0
 files:
-  - url: Outline-Manager.zip
+  - url: https://s3.amazonaws.com/outline-releases/server_manager/mac/Outline-Manager.zip
     sha512: RsMSpb6tBzdSBMQK4XZrsgsdj4VijdeeOmbci8E37698R5tvbGru8xLUAYTAz4EW4RvGvJg2AqumFW4qnYLaNg==
     size: 98350290
     blockMapSize: 104655
-  - url: Outline-Manager.dmg
-    sha512: Mo8Fd/hsxFxTKZGddd6W4P9V+CQ8GleJKXkCRkSZ90rpFNxCjrcmcf/RiR3CFZOubYbqA0CjOlz+2HxKyvBNZw==
-    size: 101702614
-  - url: Outline-Manager.dmg
-    sha512: Mo8Fd/hsxFxTKZGddd6W4P9V+CQ8GleJKXkCRkSZ90rpFNxCjrcmcf/RiR3CFZOubYbqA0CjOlz+2HxKyvBNZw==
-    size: 101702614
-  - url: Outline-Manager.dmg
+  - url: https://s3.amazonaws.com/outline-releases/server_manager/mac/Outline-Manager.dmg
     sha512: Mo8Fd/hsxFxTKZGddd6W4P9V+CQ8GleJKXkCRkSZ90rpFNxCjrcmcf/RiR3CFZOubYbqA0CjOlz+2HxKyvBNZw==
     size: 101702614
 path: Outline-Manager.zip
