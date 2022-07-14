@@ -1,13 +1,17 @@
-version: 1.9.0
+version: 1.10.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/server_manager/mac/Outline-Manager.zip
-    sha512: RsMSpb6tBzdSBMQK4XZrsgsdj4VijdeeOmbci8E37698R5tvbGru8xLUAYTAz4EW4RvGvJg2AqumFW4qnYLaNg==
-    size: 98350290
-    blockMapSize: 104655
-  - url: https://s3.amazonaws.com/outline-releases/server_manager/mac/Outline-Manager.dmg
-    sha512: Mo8Fd/hsxFxTKZGddd6W4P9V+CQ8GleJKXkCRkSZ90rpFNxCjrcmcf/RiR3CFZOubYbqA0CjOlz+2HxKyvBNZw==
-    size: 101702614
-path: Outline-Manager.zip
-sha512: RsMSpb6tBzdSBMQK4XZrsgsdj4VijdeeOmbci8E37698R5tvbGru8xLUAYTAz4EW4RvGvJg2AqumFW4qnYLaNg==
-releaseDate: '2021-09-28T16:43:10.382Z'
-stagingPercentage: 100
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/1.10.0/1/Outline-Manager.zip
+    sha512: djBMduCWhKz6F833LUFvXhsK1DPdhucPWgRTqbO7mBKg+EZDtqKBrd7t7KxQmoQp3QMEQJLqXQHdzY6YjhKmew==
+    size: 99404940
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
+    sha512: Bbwlru1k0LVh0fcDNSSMBYr5YiEif61Gks66LLvIOVYgqoIYpgGYrVnzyqr60dbnh0X/1BHa5XD+Tg5zHmmZqg==
+    size: 103015615
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
+    sha512: Bbwlru1k0LVh0fcDNSSMBYr5YiEif61Gks66LLvIOVYgqoIYpgGYrVnzyqr60dbnh0X/1BHa5XD+Tg5zHmmZqg==
+    size: 103015615
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
+    sha512: Bbwlru1k0LVh0fcDNSSMBYr5YiEif61Gks66LLvIOVYgqoIYpgGYrVnzyqr60dbnh0X/1BHa5XD+Tg5zHmmZqg==
+    size: 103015615
+path: https://s3.amazonaws.com/outline-releases/manager/macos/1.10.0/1/Outline-Manager.zip
+sha512: djBMduCWhKz6F833LUFvXhsK1DPdhucPWgRTqbO7mBKg+EZDtqKBrd7t7KxQmoQp3QMEQJLqXQHdzY6YjhKmew==
+releaseDate: '2022-07-15T20:12:52.218Z'

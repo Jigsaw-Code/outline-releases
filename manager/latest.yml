@@ -1,9 +1,8 @@
-version: 1.9.0
+version: 1.10.0
 files:
-  - url: Outline-Manager.exe
-    sha512: Vn8jUQAyurvHlIoyIq3WkxeoDyjQYhmUK23g7g1QgTYXQfIOqghV6s+qjKxEKkch/rBa7sehz36g5eoqxtd6VQ==
-    size: 66830000
-path: Outline-Manager.exe
-sha512: Vn8jUQAyurvHlIoyIq3WkxeoDyjQYhmUK23g7g1QgTYXQfIOqghV6s+qjKxEKkch/rBa7sehz36g5eoqxtd6VQ==
-releaseDate: '2021-09-28T16:48:28.107Z'
-stagingPercentage: 100
+  - url: https://s3.amazonaws.com/outline-releases/manager/windows/1.10.0/1/Outline-Manager.exe
+    sha512: H/43uMKUcPNHjketx/L9PdACbf3gv2nBJ9aeqs+V43aysqnR9wNG7l5/uKandtTfuV7RKLosfCcu4wZzt+9ZMg==
+    size: 70994592
+path: https://s3.amazonaws.com/outline-releases/manager/windows/1.10.0/1/Outline-Manager.exe
+sha512: H/43uMKUcPNHjketx/L9PdACbf3gv2nBJ9aeqs+V43aysqnR9wNG7l5/uKandtTfuV7RKLosfCcu4wZzt+9ZMg==
+releaseDate: '2022-07-18T20:17:10.623Z'
