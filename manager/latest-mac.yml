@@ -1,17 +1,17 @@
-version: 1.10.0
+version: 1.11.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/manager/macos/1.10.0/2/Outline-Manager.zip
-    sha512: GdjXROXhkztHJBB+3tXD7z3QY4zIWTmI8KV5i5utkKbeOVPwyC0IAECtv9ZBrl3Rvhr5TVb52bgRWC2YtQNlng==
-    size: 101589123
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/1.11.0/1/Outline-Manager.zip
+    sha512: yVahuafroRvkRoUg+FGvkaGeQgRGrRyMI3ti1OU2M311cAOK4l2CbdMtpKoXqAfhoORqmxrqXLx1QJqmGMSfNg==
+    size: 101604427
   - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
-    sha512: ZxAM05uK/IX5YACT+Rp8ja84cW/MnZRR2SYABvk4dK6x+WwPE3p8udjKh9aWDwwhOnWXaMSSFehUaF5oMudJmg==
-    size: 105603404
+    sha512: n1rkI8/zaj1WtjkQHpw0i8FYhs+byvXxA97o8RM5pGcTDpEAECjX90E4SVAkXRmG+Yjk9DDOvlcGki1ZEQVs1Q==
+    size: 105613729
   - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
-    sha512: ZxAM05uK/IX5YACT+Rp8ja84cW/MnZRR2SYABvk4dK6x+WwPE3p8udjKh9aWDwwhOnWXaMSSFehUaF5oMudJmg==
-    size: 105603404
+    sha512: n1rkI8/zaj1WtjkQHpw0i8FYhs+byvXxA97o8RM5pGcTDpEAECjX90E4SVAkXRmG+Yjk9DDOvlcGki1ZEQVs1Q==
+    size: 105613729
   - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
-    sha512: ZxAM05uK/IX5YACT+Rp8ja84cW/MnZRR2SYABvk4dK6x+WwPE3p8udjKh9aWDwwhOnWXaMSSFehUaF5oMudJmg==
-    size: 105603404
-path: https://s3.amazonaws.com/outline-releases/manager/macos/1.10.0/2/Outline-Manager.zip
-sha512: GdjXROXhkztHJBB+3tXD7z3QY4zIWTmI8KV5i5utkKbeOVPwyC0IAECtv9ZBrl3Rvhr5TVb52bgRWC2YtQNlng==
-releaseDate: '2022-07-27T21:52:28.159Z'
+    sha512: n1rkI8/zaj1WtjkQHpw0i8FYhs+byvXxA97o8RM5pGcTDpEAECjX90E4SVAkXRmG+Yjk9DDOvlcGki1ZEQVs1Q==
+    size: 105613729
+path: https://s3.amazonaws.com/outline-releases/manager/macOS/1.11.0/1/Outline-Manager.zip
+sha512: yVahuafroRvkRoUg+FGvkaGeQgRGrRyMI3ti1OU2M311cAOK4l2CbdMtpKoXqAfhoORqmxrqXLx1QJqmGMSfNg==
+releaseDate: '2022-09-13T21:38:10.395Z'
