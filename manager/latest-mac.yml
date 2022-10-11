@@ -1,6 +1,6 @@
 version: 1.12.0
 files:
-  - url: tps://s3.amazonaws.com/outline-releases/manager/macos/1.12.0/1/Outline-Manager.zip
+  - url: https://s3.amazonaws.com/outline-releases/manager/macos/1.12.0/1/Outline-Manager.zip
     sha512: uq9zndRKzNttDJ2qiRJAt1je8WHdg0uMK+cTar0DnYvSDrYliJ5a1pti7rFVy8bMNKt0hS4Ex21eFJpVOKh7/g==
     size: 101593750
   - url: https://s3.amazonaws.com/outline-releases/manager/macos/stable/Outline-Manager.dmg
