@@ -1,8 +1,8 @@
 version: 1.12.0
 files:
-  - url: Outline-Manager.exe
+  - url: https://s3.amazonaws.com/outline-releases/manager/windows/1.12.0/1/Outline-Manager.exe
     sha512: yUovaI5HEuPAUXueNQHFH9YJKNq1p2I8rLl1YwyEN6US9Pn/nTWCdKGae33G9ZB3j2X52vtXyJhSFUn+3fr/Yg==
     size: 76242688
-path: Outline-Manager.exe
+path: https://s3.amazonaws.com/outline-releases/manager/windows/1.12.0/1/Outline-Manager.exe
 sha512: yUovaI5HEuPAUXueNQHFH9YJKNq1p2I8rLl1YwyEN6US9Pn/nTWCdKGae33G9ZB3j2X52vtXyJhSFUn+3fr/Yg==
-releaseDate: '2022-10-07T21:18:43.681Z'
+releaseDate: "2022-10-07T21:18:43.681Z"
