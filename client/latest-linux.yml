@@ -4,6 +4,6 @@ files:
     sha512: W4cJVA5PGBLL1rc0dh2tiL/+WVdgugT9Etmjb9PqXEUTdu2mOqKevzW5aoVXahbu22l41bH1HPEZixhbreh/Vg==
     size: 107021121
     blockMapSize: 111445
-path: https://outline-releases.s3.amazonaws.com/client/linux/stable/Outline-Client.AppImage
+path: https://s3.amazonaws.com/outline-releases/client/linux/stable/Outline-Client.AppImage
 sha512: W4cJVA5PGBLL1rc0dh2tiL/+WVdgugT9Etmjb9PqXEUTdu2mOqKevzW5aoVXahbu22l41bH1HPEZixhbreh/Vg==
 releaseDate: "2022-10-10T18:48:16.020Z"
