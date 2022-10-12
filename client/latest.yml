@@ -1,6 +1,6 @@
 version: 1.8.0
 files:
-  - url: https://outline-releases.s3.amazonaws.com/client/windows/stable/Outline-Client.exe
+  - url: https://s3.amazonaws.com/outline-releases/client/windows/stable/Outline-Client.exe
     sha512: PER8wWm0qu2YV12EE6mcrfYAzJgQ0Oq7dX0hnBU40AC27dme5zg6VYFH0CtOKnlLK5y6dTgTJWzSeeS81eCx1A==
     size: 81054232
     isAdminRightsRequired: true
