@@ -1,9 +1,9 @@
-version: 1.7.0
+version: 1.8.0
 files:
-  - url: Outline-Client.AppImage
-    sha512: cK7xAKO5onRvZaFCupPcZEYOkYwRYVRG96Kde4kmSAsciQwjhj07Ddbul0twC6LibP5b8HKoy0jHOGtcNygstQ==
-    size: 98546329
-    blockMapSize: 103085
-path: Outline-Client.AppImage
-sha512: cK7xAKO5onRvZaFCupPcZEYOkYwRYVRG96Kde4kmSAsciQwjhj07Ddbul0twC6LibP5b8HKoy0jHOGtcNygstQ==
-releaseDate: '2022-05-10T18:31:17.885Z'
+  - url: https://s3.amazonaws.com/outline-releases/client/linux/1.8.0/3/Outline-Client.AppImage
+    sha512: W4cJVA5PGBLL1rc0dh2tiL/+WVdgugT9Etmjb9PqXEUTdu2mOqKevzW5aoVXahbu22l41bH1HPEZixhbreh/Vg==
+    size: 107021121
+    blockMapSize: 111445
+path: https://s3.amazonaws.com/outline-releases/client/linux/1.8.0/3/Outline-Client.AppImage
+sha512: W4cJVA5PGBLL1rc0dh2tiL/+WVdgugT9Etmjb9PqXEUTdu2mOqKevzW5aoVXahbu22l41bH1HPEZixhbreh/Vg==
+releaseDate: "2022-10-10T18:48:16.020Z"
