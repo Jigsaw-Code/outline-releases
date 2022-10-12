@@ -1,6 +1,6 @@
 version: 1.8.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/client/linux/stable/Outline-Client.AppImage
+  - url: https://s3.amazonaws.com/outline-releases/client/linux/1.8.0/3/Outline-Client.AppImage
     sha512: W4cJVA5PGBLL1rc0dh2tiL/+WVdgugT9Etmjb9PqXEUTdu2mOqKevzW5aoVXahbu22l41bH1HPEZixhbreh/Vg==
     size: 107021121
     blockMapSize: 111445
