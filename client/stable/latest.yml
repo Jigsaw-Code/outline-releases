@@ -1,8 +1,9 @@
-version: 1.2.34
+version: 1.8.1
 files:
-  - url: Outline-Client.exe
-    sha512: H/3GLiHT6aablddDs63l/LmyN5XuVO6ejpf4FiY+/+qykKhKLkP4S2F/5juyLoE2E88mk+awJYqJR2WW+OCfkg==
-    size: 39964680
-path: Outline-Client.exe
-sha512: H/3GLiHT6aablddDs63l/LmyN5XuVO6ejpf4FiY+/+qykKhKLkP4S2F/5juyLoE2E88mk+awJYqJR2WW+OCfkg==
-releaseDate: '2019-08-12T20:51:40.038Z'
+  - url: https://s3.amazonaws.com/outline-releases/client/windows/1.8.1/2/Outline-Client.exe
+    sha512: 0jJ2YjeaZqR1nDpM4fQaeXiA2d6u+Ec3lkzknmDEdJpyxo2Uzy1WM+nPDBYBYOr0eXhREoOC9aYkZIxI0DnFXQ==
+    size: 81016216
+    isAdminRightsRequired: true
+path: https://s3.amazonaws.com/outline-releases/client/windows/1.8.1/2/Outline-Client.exe
+sha512: 0jJ2YjeaZqR1nDpM4fQaeXiA2d6u+Ec3lkzknmDEdJpyxo2Uzy1WM+nPDBYBYOr0eXhREoOC9aYkZIxI0DnFXQ==
+releaseDate: '2022-11-03T21:34:28.933Z'
