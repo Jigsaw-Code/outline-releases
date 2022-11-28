@@ -1,10 +1,10 @@
-version: 1.12.0
+version: 1.13.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/manager/linux/1.12.0/1/Outline-Manager.AppImage
-    sha512: YnIxaLfFVoqUwtmay67UrytZiwn2uZBPctIpzbqmkxsyxfPRTDc+aa8g3idEktE15w/PvJ+pEo3vIItzDkI+Ag==
-    size: 106805774
-    blockMapSize: 113186
-path: https://s3.amazonaws.com/outline-releases/manager/linux/1.12.0/1/Outline-Manager.AppImage
-sha512: YnIxaLfFVoqUwtmay67UrytZiwn2uZBPctIpzbqmkxsyxfPRTDc+aa8g3idEktE15w/PvJ+pEo3vIItzDkI+Ag==
-releaseDate: "2022-10-07T14:18:30.196Z"
+  - url: https://s3.amazonaws.com/outline-releases/manager/linux/1.13.0/1/Outline-Manager.AppImage
+    sha512: nZu8EAQfnyI8mF2ygJAgZ9dNl8/A+hXgRJvrosgUq+ULujzlybja6SqzquSg1w3PCjzfntGaJaIlC+HEqREe8A==
+    size: 106805984
+    blockMapSize: 113396
+path: https://s3.amazonaws.com/outline-releases/manager/linux/1.13.0/1/Outline-Manager.AppImage
+sha512: nZu8EAQfnyI8mF2ygJAgZ9dNl8/A+hXgRJvrosgUq+ULujzlybja6SqzquSg1w3PCjzfntGaJaIlC+HEqREe8A==
+releaseDate: '2022-11-18T20:30:41.149Z'
 stagingPercentage: 100
