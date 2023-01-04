@@ -1,9 +1,9 @@
 version: 1.8.1
 files:
-  - url: https://s3.amazonaws.com/outline-releases/client/windows/1.8.1/2/Outline-Client.exe
+  - url: https://s3.amazonaws.com/outline-releases/client/windows/1.9.0/2/Outline-Client.exe
     sha512: 0jJ2YjeaZqR1nDpM4fQaeXiA2d6u+Ec3lkzknmDEdJpyxo2Uzy1WM+nPDBYBYOr0eXhREoOC9aYkZIxI0DnFXQ==
     size: 81016216
     isAdminRightsRequired: true
-path: https://s3.amazonaws.com/outline-releases/client/windows/1.8.1/2/Outline-Client.exe
+path: https://s3.amazonaws.com/outline-releases/client/windows/1.9.0/2/Outline-Client.exe
 sha512: 0jJ2YjeaZqR1nDpM4fQaeXiA2d6u+Ec3lkzknmDEdJpyxo2Uzy1WM+nPDBYBYOr0eXhREoOC9aYkZIxI0DnFXQ==
 releaseDate: '2022-11-03T21:34:28.933Z'
