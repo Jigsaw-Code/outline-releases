@@ -1,9 +1,9 @@
-version: 1.9.1
+version: 1.10.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/client/windows/1.9.1/1/Outline-Client.exe
-    sha512: F1/rYrHO6WfquCYabGMTwRXf5yX+5DmXJa/wAKAeVGmiAuY1TRfDHQNsZiSF1wJ8l7bSqJItkXmVdQaGqAI8Bg==
-    size: 69780064
+  - url: https://s3.amazonaws.com/outline-releases/client/windows/1.10.0/1/Outline-Client.exe
+    sha512: iebTx5I3RrQoshECUTxXmPSN0cJFSVroGsg7ggnFAh6DyQNylxCAz9sJvs7Hbg6/Ia/Mzj0aJBUrU5BvrEXAFA==
+    size: 81107360
     isAdminRightsRequired: true
-path: https://s3.amazonaws.com/outline-releases/client/windows/1.9.1/1/Outline-Client.exe
-sha512: F1/rYrHO6WfquCYabGMTwRXf5yX+5DmXJa/wAKAeVGmiAuY1TRfDHQNsZiSF1wJ8l7bSqJItkXmVdQaGqAI8Bg==
-releaseDate: '2023-01-09T19:51:52.413Z'
+path: https://s3.amazonaws.com/outline-releases/client/windows/1.10.0/1/Outline-Client.exe
+sha512: iebTx5I3RrQoshECUTxXmPSN0cJFSVroGsg7ggnFAh6DyQNylxCAz9sJvs7Hbg6/Ia/Mzj0aJBUrU5BvrEXAFA==
+releaseDate: '2023-02-23T21:59:33.588Z'
