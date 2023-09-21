@@ -1,10 +1,9 @@
-version: 1.14.0
+version: 1.15.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/manager/linux/1.14.0/1/Outline-Manager.AppImage
-    sha512: 7s6VNudPobWGgNZBBizfVGZbemi1DcNg3lQRhu8z/R3OTUwZdGOj4baZg145QknYsUSuO79wKoDfIpbHgktYlg==
-    size: 106871375
-    blockMapSize: 113251
-path: https://s3.amazonaws.com/outline-releases/manager/linux/1.14.0/1/Outline-Manager.AppImage
-sha512: 7s6VNudPobWGgNZBBizfVGZbemi1DcNg3lQRhu8z/R3OTUwZdGOj4baZg145QknYsUSuO79wKoDfIpbHgktYlg==
-releaseDate: '2023-02-08T20:40:21.918Z'
-stagingPercentage: 100
+  - url: https://s3.amazonaws.com/outline-releases/manager_linux/v1.15.0-rc.1/Outline-Manager.AppImage
+    sha512: Q0fGYXB2u1FQS7cNmlXWBGhiBNXUaRmdwVqJEyKxjyGWVYdh8RTINnG1qfpBRwwtjRQuGGaJu4MG9v7+B6Q1Lg==
+    size: 107773841
+    blockMapSize: 114597
+path: https://s3.amazonaws.com/outline-releases/manager_linux/v1.15.0-rc.1/Outline-Manager.AppImage
+sha512: Q0fGYXB2u1FQS7cNmlXWBGhiBNXUaRmdwVqJEyKxjyGWVYdh8RTINnG1qfpBRwwtjRQuGGaJu4MG9v7+B6Q1Lg==
+releaseDate: '2023-08-29T16:57:34.713Z'
