@@ -1,17 +1,17 @@
 version: 1.15.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.0-rc.0/Outline-Manager.zip
+  - url: https://s3.amazonaws.com/outline-release-candidates/manager_macos/v1.15.0-rc.0/Outline-Manager.zip
     sha512: OnoVf6uWZGWn2fiYDe7sd7tPOQyeVowUGQLnr8+feBOAjILvjXWNPQNWJGRiezb5rtENbCIAtsbdkJmyBsB4QA==
     size: 97782094
-  - url: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
+  - url: https://s3.amazonaws.com/outline-release-candidates/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
     sha512: uO8PgPxeAfoUbMm75QbdDHFrlfLOOWU8/7qaH5Xi611b4NyMKmDJ6026pgiUZKRivy0kznyrmKh8nkqW+PuxEQ==
     size: 101972407
-  - url: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
+  - url: https://s3.amazonaws.com/outline-release-candidates/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
     sha512: uO8PgPxeAfoUbMm75QbdDHFrlfLOOWU8/7qaH5Xi611b4NyMKmDJ6026pgiUZKRivy0kznyrmKh8nkqW+PuxEQ==
     size: 101972407
-  - url: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
+  - url: https://s3.amazonaws.com/outline-release-candidates/manager_macos/v1.15.0-rc.0/Outline-Manager.dmg
     sha512: uO8PgPxeAfoUbMm75QbdDHFrlfLOOWU8/7qaH5Xi611b4NyMKmDJ6026pgiUZKRivy0kznyrmKh8nkqW+PuxEQ==
     size: 101972407
-path: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.0-rc.0/Outline-Manager.zip
+path: https://s3.amazonaws.com/outline-release-candidates/manager_macos/v1.15.0-rc.0/Outline-Manager.zip
 sha512: OnoVf6uWZGWn2fiYDe7sd7tPOQyeVowUGQLnr8+feBOAjILvjXWNPQNWJGRiezb5rtENbCIAtsbdkJmyBsB4QA==
 releaseDate: '2023-08-29T17:03:44.392Z'
