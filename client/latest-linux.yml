@@ -1,9 +1,9 @@
-version: 1.12.1
+version: 1.13.0
 files:
-  - url: https://s3.amazonaws.com/outline-releases/client_linux/v1.12.1/Outline-Client.AppImage
-    sha512: 3hh0BIhlowlFj6Vjlle7MloMDAkAxiy63Ub1GYKNH8cBOaGQCxcZ3jxIFN8kGtcrP3y2wNw4RIBT1lwW0MNqow==
-    size: 105075944
-    blockMapSize: 111868
-path: https://s3.amazonaws.com/outline-releases/client_linux/v1.12.1/Outline-Client.AppImage
-sha512: 3hh0BIhlowlFj6Vjlle7MloMDAkAxiy63Ub1GYKNH8cBOaGQCxcZ3jxIFN8kGtcrP3y2wNw4RIBT1lwW0MNqow==
-releaseDate: '2023-10-30T20:26:41.532Z'
+  - url: https://s3.amazonaws.com/outline-releases/client/linux/1.13.0/3/Outline-Client.AppImage
+    sha512: l1BDMSAqpYea2hIQYStjLIj0NTV/NnSeAiqWhGjZHELEKBwk31FOiPJXbq7j+ydyzlpdf6XD34qLG8PQPFC1dQ==
+    size: 105645860
+    blockMapSize: 112440
+path: https://s3.amazonaws.com/outline-releases/client/linux/1.13.0/3/Outline-Client.AppImage
+sha512: l1BDMSAqpYea2hIQYStjLIj0NTV/NnSeAiqWhGjZHELEKBwk31FOiPJXbq7j+ydyzlpdf6XD34qLG8PQPFC1dQ==
+releaseDate: '2024-03-29T16:13:59.436Z'
