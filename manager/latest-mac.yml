@@ -1,8 +1,0 @@
-version: 1.15.2
-files:
-  - url: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.2/Outline-Manager.dmg
-    sha512: xNdlaLQRW2NnDuKe8rmYai2qwSYPDkPzBqn9/qqLfbDnNWiuur932qNUJ6lrUuoBUt2HBeJxoRXaCBoGqgp9yg==
-    size: 172656141
-path: https://s3.amazonaws.com/outline-releases/manager_macos/v1.15.2/Outline-Manager.dmg
-sha512: xNdlaLQRW2NnDuKe8rmYai2qwSYPDkPzBqn9/qqLfbDnNWiuur932qNUJ6lrUuoBUt2HBeJxoRXaCBoGqgp9yg==
-releaseDate: '2024-02-21T21:11:56.529Z'

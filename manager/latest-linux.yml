@@ -1,9 +1,0 @@
-version: 1.15.2
-files:
-  - url: https://s3.amazonaws.com/outline-releases/manager_linux/v1.15.2/Outline-Manager.AppImage
-    sha512: D/+eOVczjFjqD18/7zdEwzf/uPiKYbnD1Qtslj5H433eJqY/Akf4Kh7JWCvSDa5pCj0XzHoMxcJouvqtS6Pu7g==
-    size: 109602547
-    blockMapSize: 116487
-path: https://s3.amazonaws.com/outline-releases/manager_linux/v1.15.2/Outline-Manager.AppImage
-sha512: D/+eOVczjFjqD18/7zdEwzf/uPiKYbnD1Qtslj5H433eJqY/Akf4Kh7JWCvSDa5pCj0XzHoMxcJouvqtS6Pu7g==
-releaseDate: '2024-02-06T18:22:06.485Z'
